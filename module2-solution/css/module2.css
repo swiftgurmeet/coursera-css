@@ -1,0 +1,104 @@
+html {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  border: 2px solid black;
+}
+
+div {
+  position: relative;
+
+}
+p.menu-item-name{
+  position:absolute;
+  top:0px;
+  right: 0px;
+  height:30px;
+  width:70px;
+  text-align: center;
+  padding:2px;
+  margin:0px;
+}
+
+p#chicken{
+  background-color: pink;
+}
+p#beef{
+  background-color: red;
+}
+p#sushi{
+  background-color: yellow;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  position: relative;
+}
+
+.menu-item-tag {
+  position: relative;
+  width:100%;
+  border-width: 2px;
+  margin: 0px;
+  background-color: #666666;
+}
+.menu-item-description {
+  position:relative;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-width: 0px;
+}
+
+.menu-item {
+  position: relative;
+  background-color: #777777;
+  margin:1%;
+  padding: -2px;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-lg-3 {
+    width: 31.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-md-5, .col-md-10 {
+    float: left;
+    border: 1px solid black;
+  }
+  
+  .col-md-5 {
+    width: 48%;
+  }
+  
+  .col-md-10 {
+    width: 98%;
+  }
+}
+@media (min-width: 100px) and (max-width: 767px) {
+   .col-md-5, .col-md-10 {
+    float: left;
+    border: 1px solid black;
+    width:98%;
+  } 
+}
