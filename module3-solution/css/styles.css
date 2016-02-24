@@ -21,16 +21,26 @@
 .container .jumbotron {
     margin-top: 30px;
     padding: 0;
-    background-color: #888888;
+    background-color: #33cc88;
     border: solid black 2px;
   }
 
 .jumbotron {
-    background-color: #33cc88; 
+    background-color: #eeeeee; 
+}
+
+.jumbotron p.text-center {
+    font-size: 4em;
+    padding-bottom: 20px;
+}
+
+.jumbotron .menu-item {
+    background-color: #33cc88;
 }
 
 #collapsable-nav a {
   border: solid black 1px;
+  background-color: #ccccee;
 }
 
 p.menu-item-name {
